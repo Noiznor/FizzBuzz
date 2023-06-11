@@ -1,4 +1,4 @@
-# FizzBuzz
+# FizzBuzz(Java)
 
 <h1 align="left">Question</h1>
 
