@@ -23,29 +23,3 @@
 <h3 align="left">Time complexity:<br>O(n), as we need to iterate through n numbers from 1 to n.<br><br>Space complexity:<br>O(n), as we need to store n elements in the output list.</h3>
 
 ###
-
-<h1 align="left">Code:</h1>
-
-###
-
-<h3 align="left">class Solution {
-    public List<String> fizzBuzz(int n) {
-        List<String> result = new ArrayList<>();
-        
-        for (int i = 1; i <= n; i++){
-            if (i % 3 == 0 && i % 5 == 0) {
-                result.add("FizzBuzz");
-            } else if (i % 3 == 0) {
-                result.add("Fizz");
-            } else if (i % 5 == 0) {
-                result.add("Buzz");
-            } else {
-                result.add(String.valueOf(i));
-            }
-        }
-        
-        return result;
-    }
-}</h3>
-
-###
